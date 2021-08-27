@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}	
+main{
+	margin-top: 10%;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.div-dentro{
+	width: 315px;
+	height: 25px;	
+	display: flex;
+	flex-direction: row;		
+}
+.h4{
+	width: 150px;
+	height: auto;
+	font-weight: normal;
+}
+#div-fora{
+	width: 400px;
+	height: 160px;	
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#confirmar{
+	width: 190px;
+	height: 40px;
+	margin-top: 4px;
+	border-radius: 7px;
+	color: #fff;	
+	background-color: green;
+	font-size: 12px;
+	border: none;	
+}
+#confirmar:hover{
+	color: yellow;
+}

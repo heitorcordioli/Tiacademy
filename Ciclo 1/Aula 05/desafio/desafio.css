@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;*/
+}
+
+header,footer{
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+	position: fixed;	
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(to left, white, green, white);
+}
+
+#uem{
+	position: absolute;
+	z-index: 100;
+	margin-top: 5px;
+	margin-left: 11%;
+}
+
+img{
+	width: 70px;
+	height: 70px;
+}
+
+footer{
+	bottom: 0;	
+	position: fixed;	
+	background-image: linear-gradient(to left, white, green, white);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h4{	
+	font-family: arial;
+	font-size: 20px;
+	color: #000;
+}
+
+
+main{
+	
+	width: 100%;
+	height:auto;
+	/*background-color: red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#content{
+		width: 100%;
+		margin-top: 100px ;
+		margin-bottom: 100px;
+	}
+
+h1{
+	font-family: Italic;
+	font-size: 30px;
+	margin-left: 60%;
+}
+
+h2{
+	font-family: Italic;
+	font-size: 40px;
+	margin-left:60% ;
+	color: #000;
+}
+
+h3{
+	position: absolute;
+	z-index: 2;
+	font-family: Castellar;
+	font-size: 18px;
+	/*border: 1px solid red;*/
+	margin-top: 80px;
+	margin-left:10% ;
+	color: #000;	
+}
+
+#teste{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 3px;
+	border-bottom: 2px dotted black;
+}
+
+a{
+	top: 0;	
+	text-decoration: none;
+}
+
+a:hover{
+	color: violet;
+}
+
+.btn{
+	padding: 2px;	
+	font-size: 20px;
+	color: #000;
+}
+
+#teste2{
+	padding: 2px;
+	font-family: verdana, arial, cursive;
+	font-size: 20px;
+	padding-left: 17%;
+	color: blue;
+	border-bottom: 2px dotted black;
+}
+
+#teste3{
+	padding-top: 10px;
+	font-family: verdana, arial, cursive;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-bottom: 3px;
+	border-bottom: 2px dotted black
+}
+
+#teste4{
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+	padding: 10px;
+}
+
+p{
+	font-family: verdana, arial, cursive;
+	font-size: 20px;
+	padding-bottom: 3px;	
+}
+
+#teste5{
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 3px;
+	border-bottom: 2px dotted black;
+	font-family: verdana, arial, cursive;
+	font-size: 30px;
+}
+
+.equipe{
+	padding-top: 10px;	
+	padding-bottom: 3px;
+	margin-left: 5px;
+	font-family: verdana, arial, cursive;
+	font-size: 20px;
+	color: blue;
+}
+
+
+.nomes{
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 3px;
+	font-family: verdana, arial, cursive;
+	font-size: 15px;
+}
+
+.coluna1{
+	float: left;
+	width: 50%;
+	border-right: 1px dotted black;
+}
+
+.coluna2{
+	float: right;
+	width: 50%;
+}
+
+
+
+
+
